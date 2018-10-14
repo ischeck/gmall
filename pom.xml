@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.atguigu.gmall</groupId>
+	<artifactId>gmall</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>gmall</name>
+	<description>Demo project for Spring Boot</description>
+
+	<modules>
+		<module>gmall-interface</module>
+		<module>gmall-bean</module>
+		<module>gmall-parent</module>
+		<module>gmall-common-util</module>
+		<module>gmall-web-util</module>
+		<module>gmall-service-util</module>
+
+		<module>gmall-cart-service</module>
+		<module>gmall-cart-web</module>
+		<module>gmall-manager-service</module>
+		<module>gmall-manager-web</module>
+		<module>gmall-usermanager-service</module>
+		<module>gmall-item-web</module>
+		<module>gmall-list-service</module>
+		<module>gmall-list-web</module>
+		<module>gmall-order-service</module>
+		<module>gmall-order-web</module>
+		<module>gmall-passport-web</module>
+		<module>gmall-payment</module>
+
+
+	</modules>
+
+
+
+
+</project>
